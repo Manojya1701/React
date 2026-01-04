@@ -1,0 +1,26 @@
+{
+  "name": "hireact",
+  "version": "1.0.0",
+  "description": "hi react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manojya1701/react.git"
+  },
+  "keywords": [],
+  "author": "manojya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manojya1701/react/issues"
+  },
+  "homepage": "https://github.com/Manojya1701/react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
