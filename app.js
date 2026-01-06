@@ -1,11 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-
-const heading = React.createElement(
+ //Recat Crete elemnt
+const heading=React.createElement(
   "h1",
-  { id: "heading" },
-  "HI from react 19"
+  {id:"heading"},
+  "HI from REact element create"
 );
-
-const root = createRoot(document.getElementById("root"));
+//JSX
+const jsxheading=<h1>Namastey react from jSX</h1>;
+const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
